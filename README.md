@@ -125,7 +125,7 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/твой_логин/kwork-parser.git
+git clone https://github.com/collertop/kwork-parser.git
 cd kwork-parser
 
 # 2. Установить зависимости
