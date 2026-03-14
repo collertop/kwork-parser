@@ -1,0 +1,45 @@
+[2026-03-14 20:18:20] Чат-боты: HTTPSConnectionPool(host='kwork.ru', port=443): Max retries exceeded with url: /catalog_kworks_filters/script-programming/chat-boty (Caused by NameResolutionError("HTTPSConnection(host='kwork.ru', port=443): Failed to resolve 'kwork.ru' ([Errno 8] nodename nor servname provided, or not known)"))
+[2026-03-14 20:21:46] Доработка сайтов: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:47] Настройка сайтов: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:47] Исправление ошибок: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=3, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:48] Новый сайт: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:48] Копия сайта: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:49] Верстка по макету: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:49] Доработка верстки: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=3, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:49] Чат-боты: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:50] ИИ-боты: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:50] Telegram Mini Apps: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+[2026-03-14 20:21:50] Машинное обучение: 1 validation error for KworkItem
+sellerLevel
+  Input should be a valid string [type=string_type, input_value=3, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
