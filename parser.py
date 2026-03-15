@@ -200,5 +200,38 @@ def run_parser() -> int:
     return total_collected
 
 
+
+def run_detail_pass() -> None:
+    """Второй проход: обогащаем каждый кворк детальными полями."""
+    from kwork_detail import fetch_kwork_detail
+    import json
+    import os
+
+    cookie = os.getenv("KWORK_COOKIE", "")
+    BATCH_SIZE = 5
+    DELAY = 2
+
+    with open(RAW_DATA_PATH) as f:
+        data = json.load(f)
+
+    print(f"\n🔍 Второй проход: {len(data)} кворков...")
+
+    for i, item in enumerate(data):
+        detail = fetch_kwork_detail(item.get("url", ""), cookie)
+        item.update(detail)
+
+        if (i + 1) % BATCH_SIZE == 0:
+            time.sleep(DELAY)
+
+        if (i + 1) % 50 == 0:
+            print(f"  Обработано {i+1}/{len(data)}")
+
+    with open(RAW_DATA_PATH, "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("✅ Детальный парсинг завершён")
+
+
 if __name__ == "__main__":
     run_parser()
+    run_detail_pass()
