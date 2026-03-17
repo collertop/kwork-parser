@@ -25,7 +25,7 @@ REQUEST_TIMEOUT_SEC = 30
 DELAY_MIN_SEC = 3
 DELAY_MAX_SEC = 6
 MAX_ITEMS_PER_CATEGORY = 50
-MAX_PAGES = 3
+MAX_PAGES = 1
 ITEMS_PER_PAGE = 24
 
 # Paste browser cookie header value into .env, for example:
