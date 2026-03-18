@@ -1,5 +1,19 @@
 # 🔍 Kwork Parser & Analyzer
 
+## Текущий статус
+
+- ✅ Каталожный парсер — 11 категорий, до 550 кворков
+- ✅ Детальный парсер — window.stateData, 100% покрытие
+- ✅ Excel аналитика — 5 листов: raw_data, by_subcategory, top_patterns, correlations, strategy
+- 🔴 Автообновление куки — в разработке
+- 🟡 Мониторинг биржи заказов — в очереди
+
+## Запуск
+```bash
+python3 parser.py   # сбор данных
+python3 analyze.py  # генерация Excel
+```
+
 > Автоматический сбор и анализ топовых объявлений с Kwork.ru для построения стратегии входа на фриланс-рынок
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
